@@ -1,6 +1,6 @@
 class Freitunit < Formula
     desc "Freitunit"
-    homepage "https://github.com/andersonfds/freitool"
+    homepage "https://github.com/andersonfds/freitunit"
     version "v0.1.0-alpha"
   
     on_macos do
