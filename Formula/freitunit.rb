@@ -6,10 +6,10 @@ class Freitunit < Formula
     on_macos do
       if Hardware::CPU.arm?
         url "https://github.com/andersonfds/freitunit/releases/download/v0.1.0-alpha/apple-arm.tar.gz"
-        sha256 "d2b01dfa1ab9349b2c2535785b6213b3de9975df1e78fb06e27e9dcadaba5e36"
+        sha256 "fcffee9e5be87576139e7ce9f22eece3801aad580c605314617e0acd507e6182"
       elsif Hardware::CPU.intel?
         url "https://github.com/andersonfds/freitunit/releases/download/v0.1.0-alpha/apple-x64.tar.gz"
-        sha256 "5bec3495714b6a7e80388017b15b5a3c4323a1329036074118787142e6bc1847"
+        sha256 "fe079de72be5f9ca53c7cf1931be809c62e4ad530e49b3a503d591d08375883f"
       end
     end
   
